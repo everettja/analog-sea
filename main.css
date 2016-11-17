@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+	padding: 0;
+	padding-top: 60px;
+	background-color: #08C;
+}
+
+body * {
+	box-sizing: border-box;
+	font-family: 'Roboto', helvetica, sans-serif;
+}
+
+.logo {
+	height: 35px;
+	display: block;
+	width: auto;
+	margin: 0 auto 30px;
+}
+
+.primary {
+	background: white;
+	width: 400px;
+	padding: 40px;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+
+legend {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 300;
+	color: #555;
+	margin: 0 auto 45px;
+	font-size: 35px;
+	letter-spacing: 0;
+	line-height: 38px;
+}
+
+
+input, button {
+	margin: 20px auto;
+	padding: 15px;
+	border-radius: 3px;
+	border: 2px solid #DDD;
+	display: block;
+	height: 60px;
+	width: 100%;
+	background-color: #fdfdfd;
+	font-size: 18px;
+	height: auto;
+	transition: opacity 0.4s;
+	text-align: left;
+}
+
+button[type="submit"] {
+	background-color: #15CD72;
+	color: white;
+	border: 0;
+	font-size: 22px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-weight: 500;
+	cursor: pointer;
+
+}
+
+.forgot {
+	margin: 0;
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+}
+
+.forgot a {
+	text-decoration: none;
+	border-bottom: 1px solid #bbb;
+}
+
+.forgot a:hover {
+	border-color: #999;
+	color: #555;
+}
+
+.footer {
+	text-align: center;
+	margin: 20px auto;
+	border: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.footer, .login-btn {
+	color: white;
+}
+
+.login-btn {
+	margin-left: 5px;
+}
+
+.footer a:hover {
+	color: #E7F2F9;
+}
+
+.footer p {
+	margin-bottom: 40px;
+}
